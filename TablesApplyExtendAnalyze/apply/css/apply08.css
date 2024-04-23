@@ -1,0 +1,65 @@
+/*
+Author: Tanner Ferguson
+Date: 4/23/2024
+File Name: apply08.css
+*/
+
+/* CSS Reset */
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #f4f9e1;
+}
+
+/* Style rule for the container */
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+}
+
+/* Style rule for table */
+table {
+	width: 80%;
+	margin: 0 auto;
+	border: 3px solid #71881b;
+}
+
+/* Style rules for inside the table for border rules */
+tr, th, td {
+	border-collapse: collapse;
+	padding: 2%;
+}
+
+/* Style rules for caption of table */
+caption {
+	font-size: 2em;
+	padding: 2%;
+	margin-top: 2%;
+}
+
+/* Border of data and headers inside table */
+th, td {
+	border: 1px solid #7188bb;
+}
+
+/* Aligns table data to the center */
+
+td {
+	text-align: center;
+}
+
+/* Changes color of odd rows in table to different color */
+tr:nth-child(odd) {
+	background-color: #d3e788;
+}
